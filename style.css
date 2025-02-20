@@ -1,0 +1,88 @@
+/*@import url('https://fonts.googleapis.com/css2');*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 'Priscillia', sans-serif;
+    transition: 0.5s;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f3f5f9;
+}
+main{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    width: 450px;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px rgb(0,0, 0 0, 2);
+    text-align: center;
+    
+}
+p{
+    margin: 20px 0;
+}
+div{
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+input{
+    width: calc(100% - 100PX);
+    padding: 10px 5px;
+    outline: 0;
+    border: 2px solid #0B6FD2;
+    border-radius: 60PX 0 0 60PX;
+    text-align: center;
+}
+h4{
+    margin: 20px 0;
+    margin-bottom: 40px;
+    line-height: 60px;
+    color: #999;
+}
+button{
+    width: 100PX;
+    border: 1px solid #0B6FD2;
+    background-color: #0B6FD2;
+    color: #fff;
+    border-radius: 0 60PX 60PX 0;
+    cursor: pointer;
+}
+#link{
+    display: none;
+    text-align: center;
+    justify-content: center;
+}
+a{
+    text-align: center;
+    border: 2px solid #0B6FD2;
+    padding: 16PX 70PX;
+    text-decoration: 0;
+    color: #fff;
+    transition: 0.5s;
+    border-radius: 60PX;
+    cursor: pointer;
+    background-color: #0B6FD2;
+}
+a:hover{
+    background-color: transparent;
+    color: #0B6FD2;
+}
+
+.end {
+    background-color: #a8a3a3;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+    width: 100%;
+    position: absolute; /* Fixer le footer en bas */
+    bottom: 0;
+    left: 0;
+}
